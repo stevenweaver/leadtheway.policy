@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-version = '0.2.0'
+version = '0.2.1'
 
 setup(
     name='leadtheway.policy',
@@ -23,7 +23,8 @@ setup(
     install_requires=[
         'setuptools',
         'Plone',
-        'PIL',
+        'Pillow',
+        'Products.PloneFormGen',
         'plone.app.caching',
         'plone.app.dexterity',
         'collective.geo.bundle',
