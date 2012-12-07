@@ -32,8 +32,9 @@ setup(
         'collective.uploadify',
         'jyu.z3cform.datepicker',
         'Solgema.fullcalendar',
-          'beast.securelogin',
+        'beast.securelogin',
         'collective.dexterity.appointments',
+        'plone.app.ldap',
         'avrc.theme.leadtheway',
         ],
     extras_require=dict(
